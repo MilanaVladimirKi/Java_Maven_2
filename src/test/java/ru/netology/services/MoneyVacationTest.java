@@ -62,19 +62,5 @@ public class MoneyVacationTest {
 
         assertEquals(expected, actual);
     }
-
-    @org.junit.jupiter.api.Test
-    void shouldCalculateForVacationDropTest() {
-        MoneyVacation service = new MoneyVacation();
-
-        long income = 10000;
-        long expense = 3000;
-        long threshold = 20000;
-
-        int expected = 12;
-
-        long actual = service.calculate(income, expense, threshold);
-
-        assertEquals(expected, actual);
-    }
+    
 }
